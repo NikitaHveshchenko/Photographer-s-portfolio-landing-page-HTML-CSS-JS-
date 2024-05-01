@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,80 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    
+    <header class="header">
+        <div class="container">
+            <div class="header__logo logo">
+                <a href="#" class="logo__link" aria-label="Go to Home">
+                    <span class="ico ico_logo"></span>
+                </a>
+            </div>
+            <nav class="header__menu menu">
+                <ul class="menu__list">
+                    <li class="menu__item"><a href="#" class="menu__link">Portfolio</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Blog</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Client reviews</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Contact me</a></li>
+                </ul>
+            </nav>
+            <div class="header__button">
+                <button class="btn__primary">Schedule a call</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero__left">
+                    <span class="hero__text-about">Pro photographer</span>
+                    <div>
+                        <span class="hero__text-line"></span>
+                        <p class="hero__text-offer">Let&rsquo;s take your photographs to&nbsp;next level</p>
+                    </div>
+                </div>
+                <div class="hero__content">
+                    <h1 class="hero__title">Hello there, Nice to meet you. I am <span>Jessie</span></h1>
+                    <p class="hero__description">
+                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do&nbsp;amet sint. Velit officia
+                        consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim
+                        mollit non deserunt ullamco est sit aliqua dolor do&nbsp;amet sint.
+                    </p>
+                </div>
+                <div class="latest-shots">
+                    <div class="latest-shots__header">
+                        <h2 class="latest-shots__title">Latest shots</h2>
+                        <a href="#" class="latest-shots__link-all">View all</a>
+                        <div class="latest-shots__slider slider">
+                            <div class="slider__items">
+                                <div class="slider__item">
+                                    <a href="#" class="slider__link" aria-label="Go to shot">
+                                        <img src="images/latest-shots/1.jpg" alt="Main in mask">
+                                    </a>
+                                </div>
+                                <div class="slider__item">
+                                    <a href="#" class="slider__link" aria-label="Go to shot">
+                                        <img src="images/latest-shots/2.jpg" alt="Woman in cornfield">
+                                    </a>
+                                </div>
+                                <div class="slider__item">
+                                    <a href="#" class="slider__link" aria-label="Go to shot">
+                                        <img src="images/latest-shots/3.jpg" alt="Main rabbit">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="slider__nav">
+                                <button class="slider__btn slider__btn-left"><span
+                                        class="ico ico_arrow-left"></span></button>
+                                <button class="slider__btn slider__btn-right"><span
+                                        class="ico ico_arrow-right aico_arrow-active"></span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
+
 </html>
